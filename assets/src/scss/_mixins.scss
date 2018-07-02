@@ -1,0 +1,69 @@
+@mixin row() {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+@mixin col() {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: no-wrap;
+}
+
+// @mixin btn() {
+//   color: $white;
+//   height: rem-calc(40);
+//   line-height: rem-calc(32);
+//   border-radius: rem-calc(30);
+//   font-family: $primary-font;
+//   font-size: rem-calc(14);
+//   font-weight: 400;
+//   text-align: center;
+// }
+
+
+// @mixin placeholder() {
+//   &::-webkit-input-placeholder, 
+//   &::-moz-placeholder,
+//   &:-moz-placeholder, 
+//   &:-ms-input-placeholder {
+//     color: $light-gray !important;
+//     font-weight: 300;
+//     transition: all .3s ease-out;
+//   }
+//   &::placeholder {
+//     color: $light-gray;
+//     font-weight: 300;
+//     transition: all .3s ease-out;
+//   }
+// }
+
+// @mixin placeholder-hov() {
+//   &::-webkit-input-placeholder, 
+//   &::-moz-placeholder,
+//   &:-moz-placeholder, 
+//   &:-ms-input-placeholder {
+//     color: $light-gray !important;
+//     font-weight: 300;
+//     opacity: 0;
+//   }
+//   &::placeholder {
+//     color: $light-gray;
+//     font-weight: 300;
+//     opacity: 0;
+//   }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

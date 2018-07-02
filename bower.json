@@ -1,0 +1,19 @@
+{
+  "name": "StormGuard",
+  "description": "WordPress Website",
+  "main": "gulpfile.js",
+  "author": "Yuliia Lunova",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/components"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "authors": [
+    "Yulia <yulia.chaika@icloud.com>"
+  ],
+  "license": "MIT"
+}

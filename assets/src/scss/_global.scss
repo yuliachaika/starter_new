@@ -1,0 +1,63 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	 -webkit-text-size-adjust: 100%;
+	@include breakpoint(small only) {
+		font-size: 70%;
+	}
+	@include breakpoint(medium down) {
+		font-size: 80%;
+	}
+}
+
+body {
+	margin: 0;
+	min-height: 100vh; 
+}
+
+input, button, select, textarea{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-webkit-border-radius:0px;
+	border-radius: 0px;
+}
+
+a, button, input, textarea  {
+	cursor: pointer;
+	transition:
+	border-color .4s ease-in,
+	color .4s ease-in,
+	text-shadow .4s ease-in,
+	background-color .4s ease-in;
+	&:focus {
+		outline: none;
+	}
+}
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3, p {
+	margin: 0; 
+}
+
+img {
+	width: 100%;
+	height: auto;
+	overflow: hidden; 
+}
+
+ul {
+	margin: 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+.container {
+	max-width: rem-calc(1140); 
+	padding: 0 rem-calc(15);
+	margin: 0 auto;
+}
